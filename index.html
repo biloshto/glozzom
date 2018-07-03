@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- CDN for the lightbox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Glozzom</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+  <!-- dark background navbar with light text -->
+  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- SHOWCASE SLIDER -->
+
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <!-- d-none to display none so when it's on a really small screen we don't want the caption to show, just the image; d-sm-block for small screens and up it'll be displayed as block -->
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading One</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis blanditiis quas sint voluptatibus tenetur inventore atque reiciendis totam fugit, ipsa.</p>
+              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ex dicta, tempore officiis accusamus mollitia vero at fuga dignissimos nesciunt.</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi beatae, aspernatur nam error magni nemo ipsam fugit saepe, aperiam sapiente!</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- HOME ICON SECTION -->
+
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fa fa-cog mb-2"></i>
+          <h3>Turning Gears</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, culpa?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fa fa-cloud mb-2"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officia?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fa fa-cart-plus mb-2"></i>
+          <h3>Making Money</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, molestiae.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- HOME HEADING SECTION -->
+
+  <section id="home-heading" class="py-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are You Ready to Get Started?</h1>
+            <!-- we want to hide this paragraph on small screen -->
+            <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt modi unde fugit soluta quisquam alias provident qui, porro eveniet quos saepe maiores a illum eaque. Fuga, laudantium illum architecto aliquid?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- INFO SECTION -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <!-- on small screens and larger 6 and 6 -->
+        <div class="col-sm-6 align-self-center">
+          <h3>Lorem ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis tenetur, in consequuntur culpa? Voluptatibus sint vero esse deserunt explicabo, iste asperiores saepe suscipit. Labore doloribus sunt magnam explicabo, alias dolorum?</p>
+          <a href="#" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/laptop.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- VIDEO PLAY SECTION -->
+
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a
+              href="#"
+              class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA"
+              data-toggle="modal"
+              data-target="#videoModal"
+              >
+                <i class="fa fa-play mb-2"></i>
+              </a>
+              <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PHOTO GALLERY SECTION -->
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center"><strong>Check out our photos</strong>&nbsp;&nbsp;<i class="fa fa-camera"></i></p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="img/business/01.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/01.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/business/02.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/02.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/business/03.jpeg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/03.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/business/04.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/04.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/business/05.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/05.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/business/06.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/business/06.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- NEWSLETTER SECTION -->
+
+  <section id="newsletter" class="text-center p-5 bg-inverse text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Signup for Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat provident accusantium et expedita quidem. Quibusdam ducimus molestias libero, illo.</p>
+          <form class="form-inline justify-content-center">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Name">
+
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Email">
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col pt-4">
+          <p>Copyright 2018 &copy; Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- JavaScript for the lightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+  <!-- our JS file -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.fa {
+  font-size: 55px; }
+
+html,
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  padding-top: 10px; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-size: cover;
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#gallery .fa {
+  font-size: 18px; }
+
+#main-footer {
+  background: #000;
+  color: #fff; }
+
+#page-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#about img {
+  margin-top: -50px; }
+
+#services .fa {
+  font-size: 25px;
+  margin-right: 25px; }
+
+#faq.bg-dark {
+  background: #444;
+  color: #fff; }
+  #faq.bg-dark .card {
+    border: #444; }
+    #faq.bg-dark .card a {
+      color: #fff;
+      text-decoration: none; }
+  #faq.bg-dark .card-header, #faq.bg-dark .card-block {
+    background: #333; }
